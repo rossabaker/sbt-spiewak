@@ -66,6 +66,7 @@ lazy val root = project
     * Automatically runs on `ci` and `release`
 - Sane scalac settings
   + Including `-Ybackend-parallelism` where supported
+- Recommended javac settings
 - SI-2712 fix across scala versions (dating back to 2.10)
 - kind-projector
 - `release` and `ci` command aliases
